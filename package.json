@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Geovation/photos-demo/issues"
   },
-  "homepage": "https://github.com/Geovation/photos-demo#readme"
+  "homepage": "https://github.com/Geovation/photos-demo#readme",
+  "devDependencies": {
+    "geovation-photos": "^0.1.1"
+  }
 }
