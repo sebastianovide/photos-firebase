@@ -1,0 +1,15 @@
+language: node_js
+
+sudo: false
+node_js:
+- '11'
+cache:
+  directories:
+  - node_modules/
+deploy:
+  provider: firebase
+  token:
+    secure: "$FIREBASE_TOKEN"
+env:
+  global:
+  - secure: ZlKf7X35bp1NaSEZuqw2J54mE77VvCA36dbiSmacXjHZX9seNpRvN4gqXbeSJVw5fQrpUIkHpEaYwQKMF6wsCGuvrYqEZ75BSIVaeiDHZajtHVJpJXfjOz+/XuE5adpIh7OBe6xiwqwwuKdVlmZuawtAkJNzMbaX+NVmt7sfLsN2SPyOpT0MHL8pb3AxkGqhdjPi8rdQ5rIa4lTPSi7tQLfalZ3OGSY56I4KsMSrtswEzzgygTrrpjfuwNqcnVAUi9obhh6UR+NeIbmEfA6S8btjqGvoKcin98nOKDjowLsh2Rth57WEV8QeEvG7GLGmWnv/i904m/C4XXdaSZ/+hm08pYdpjQmhh+H0JAe1xmSVeoTlJEdvuMTGK+176KiVzea+X9KmReTZgSL7FPlUD6HubdGwXY6iZf5qOH/I3k3KP/1hxx3zqGto0SKqKBOxrpP18Hkx/12PQQJ0aVei2ooojGcDYCqQxmQOj2G2yHywcp4Y8QC2oJcPraeeqDiIGE87iU8+Bs/B1DgcvCSdFiYih4oLfC7/w5htMxsRzlEDMehJ/lQmGmozEcMWqWBlIBcJJ0BN1giJECD+zVxm7oXGCpRG5SFPr9HmkzjH2tGqJT+pTnxlKTvL7l/7CWGX+q5GRNKKxOQHf2Q3j/whZkpakMEUmxa79ezBHrPEW1c=
